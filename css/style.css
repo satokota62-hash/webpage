@@ -17,7 +17,7 @@ main {
   padding: 0 16px;
 }
 .card {
-  background-color: rgb(120, 255, 120);
+  background-color: rgb(180, 255, 180);
   padding: 20px;
   margin-bottom: 16px;
   border-radius: 12px;
@@ -25,7 +25,7 @@ main {
 }
 .main-image {
   max-width: 100%;
-  height: auto;
+  height: 300px;
   border-radius: 12px;
   margin-top: 12px;
   object-fit: cover;
@@ -34,7 +34,7 @@ main {
   flex: 1;
   width: 50%;
   max-width: 100%;
-  height: auto;
+  height: 300px;
   border-radius: 12px;
   margin-top: 12px;
   object-fit: cover;
@@ -49,7 +49,7 @@ a {
   color: #1b5f9e;
   text-decoration: underline;
 }
-button {
+button{
   padding: 10px 16px;
   font-size: 16px;
   cursor: pointer;
@@ -58,10 +58,12 @@ button {
   border-radius: 6px;
   transition: all 0.2s;
 }
-button:hover {
-  background-color: #9999ff;
+button:hover{
+  background-color:#b3ffb3;
+  transform:translateY(-2px);
+  box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
 }
-footer {
+footer{
   text-align: center;
   padding: 16px;
   color: #000000;

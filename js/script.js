@@ -24,3 +24,17 @@ timeButton.addEventListener("click", function() {
   }
   timeMessage.textContent=count+"回目に押した時刻は"+now.toLocaleTimeString("ja-JP")+" です。"+greeting;
 });
+const omikujiButton = document.getElementById("omikujiButton");
+const omikujiResult = document.getElementById("omikujiResult");
+const results = [
+  "大吉",
+  "中吉",
+  "吉",
+  "小吉",
+  "末吉",
+  "凶"
+];
+omikujiButton.addEventListener("click", function() {
+  const number = Math.floor(Math.random() * results.length);
+  omikujiResult.textContent = "結果は 「" + results[number] + "」 です！";
+});
