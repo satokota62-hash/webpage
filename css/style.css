@@ -34,12 +34,15 @@ main {
 .image-container{
   display: flex;
   gap: 16px;
-  margin-top:12px
+  margin-top:12px;
+  width:100%;
+  box-sizing:border-box;
 }
 .main2-image {
-  flex: 1;
-  width: 50%;
-  height: 300px;
+  flex:1;
+  width:0;
+  min-width: 0;
+  height:300px;
   border-radius: 12px;
   object-fit: cover;
 }
